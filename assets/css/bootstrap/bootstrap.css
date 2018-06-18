@@ -1875,6 +1875,26 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   -webkit-transition: all 0.15s ease-in-out;
   -o-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out; }
+  /* .btn1 {
+    display: inline-block;
+  font-weight: 300;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #fb0000;
+  border: 1px solid;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  border: radius 4px;
+  -webkit-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out; */
+  }
   .btn:focus, .btn:hover {
     text-decoration: none;
     background: white;
@@ -6013,7 +6033,7 @@ a.bg-navy:focus, a.bg-navy:hover {
   padding-bottom: 1rem !important; }
 
 .p-4 {
-  padding: 1.5rem !important; }
+  padding: 1rem !important; }
 
 .pt-4 {
   padding-top: 1.5rem !important; }

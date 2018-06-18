@@ -833,16 +833,16 @@ input, select, textarea {
   padding-right: 40px; }
 
 .pb_outline-light {
-  border: 1px solid #fa0000;
+  border: 1px solid rgba(255, 1, 1, 0.637);
   border-radius: 4px;
   text-transform: uppercase;
-  background: #fa0000;
+  background: rgba(255, 1, 1, 0.637);
   color: white; }
   .pb_outline-light:hover, .pb_outline-light:active, .pb_outline-light:focus {
     outline: none;
-    background: #fff !important;
-    border: 1px solid white;
-    color: #fa0000; }
+    background: #fa0000 !important;
+    border: 1px solid #fa0000;
+    color: #fff; }
 
 .pb_outline-dark {
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -1323,11 +1323,11 @@ a {
   -ms-transform: rotate(-135deg);
   transform: rotate(-135deg); }
 
-.heading-border-top {
+.container .heading-border-top {
   position: relative;
   padding-top: 30px;
   padding-left: 30%; }
-  .heading-border-top:before {
+  .container .heading-border-top:before {
     position: absolute;
     top: 0;
     left: 50%;
@@ -1337,6 +1337,34 @@ a {
     background: #fa0000; }
   .heading-border-top.light:before {
     background: rgba(255, 255, 255, 0.7) !important; }
+    .container1 .heading-border-top:before{
+      position: absolute;
+      top: 0;
+      left: 30%;
+      height: 2px;
+      width: 50px;
+      content: "";
+      background: #fa0000
+    }
+    .container1 .heading-border-top{
+      position: relative;
+      padding-top: 30px;
+      padding-left: 0;
+    }
+    .container2 .heading-border-top:before{
+      position: absolute;
+      top: 0;
+      left: 49%;
+      height: 2px;
+      width: 50px;
+      content: "";
+      background: #fa0000
+    }
+    .container2 .heading-border-top{
+      position: relative;
+      padding-top: 30px;
+      padding-left: 43%;
+    }
 
 .text-center .heading-border-top:before {
   left: 50%;
